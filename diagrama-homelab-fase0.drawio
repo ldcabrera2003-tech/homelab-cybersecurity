@@ -7,19 +7,19 @@
         <mxCell id="2" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
           <mxGeometry height="80" width="120" x="340" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OPNsense&lt;br&gt;(Firewall)" vertex="1">
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OPNsense&amp;lt;br&amp;gt;(Firewall)" vertex="1">
           <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="WAN (em0)&lt;br&gt;DHCP (NAT)" vertex="1">
+        <mxCell id="4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#D00000;fontStyle=1;" value="WAN (em0)&amp;lt;br&amp;gt;DHCP (NAT)" vertex="1">
           <mxGeometry height="30" width="100" x="410" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="LAN (em1)&lt;br&gt;192.168.56.1/24" vertex="1">
-          <mxGeometry height="30" width="110" x="410" y="310" as="geometry" />
+        <mxCell id="5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#D00000;fontStyle=1;" value="LAN (em1)&amp;lt;br&amp;gt;192.168.56.1/24" vertex="1">
+          <mxGeometry height="30" width="110" x="450" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="6" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="Kali Linux&lt;br&gt;192.168.56.100" vertex="1">
+        <mxCell id="6" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="Kali Linux&amp;lt;br&amp;gt;192.168.56.100" vertex="1">
           <mxGeometry height="50" width="80" x="240" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="7" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#E15D28;shape=mxgraph.azure.server;pointerEvents=1;" value="Ubuntu Server&lt;br&gt;192.168.56.101" vertex="1">
+        <mxCell id="7" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#E15D28;shape=mxgraph.azure.server;pointerEvents=1;" value="Ubuntu Server&amp;lt;br&amp;gt;192.168.56.101" vertex="1">
           <mxGeometry height="70" width="60" x="480" y="380" as="geometry" />
         </mxCell>
         <mxCell id="8" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3">
@@ -31,7 +31,7 @@
         <mxCell id="10" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" value="DHCP Pool: .100 - .200" vertex="1">
+        <mxCell id="11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3;fontColor=#D00000;" value="DHCP Pool: .100 - .200" vertex="1">
           <mxGeometry height="30" width="160" x="320" y="340" as="geometry" />
         </mxCell>
       </root>
