@@ -19,7 +19,7 @@ Soy Ingeniero en Telecomunicaciones (UCAB) y estoy construyendo experiencia prá
 | Fase | Descripción | Estado |
 |---|---|---|
 | [Fase 0 — Red segmentada](./fase0-red-segmentada/README.md) | Laboratorio virtual con firewall OPNsense y red interna aislada | ✅ Completa |
-| Fase 1 — Hardening de Linux | Endurecimiento de un servidor Ubuntu (UFW/iptables, SSH, fail2ban) | 🔄 En progreso |
+| Fase 1 — Hardening de Linux | Endurecimiento de un servidor Ubuntu (UFW/iptables, SSH, fail2ban) | ✅ Completa |
 | Fase 2 — Pentest guiado | Reconocimiento y explotación controlada sobre una máquina vulnerable | ⏳ Pendiente |
 | Fase 3 — Automatización con Python | Scripts propios de escaneo, análisis de logs e inventario de red | ⏳ Pendiente |
 | Fase 4 — Detección con Docker | Stack de monitoreo/SIEM sobre el tráfico del laboratorio | ⏳ Pendiente |
