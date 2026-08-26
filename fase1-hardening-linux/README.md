@@ -123,10 +123,9 @@ El código completo está en el archivo `auditoria.sh` de esta carpeta.
 - ✅ Script de auditoría funcional, usado para comparar el estado "antes" (Desktop, ~36 servicios) y "después" (Server, 25 servicios).
 - ✅ `unattended-upgrades` confirmado aplicando parches de seguridad automáticamente (evidencia en logs).
 
-### Servicios activos en el servidor final (25 en total)
-`chrony`, `cron`, `dbus`, `fail2ban`, `fwupd`, `getty@tty1`, `ModemManager`, `multipathd`, `networkd-dispatcher`, `nginx`, `open-vm-tools`, `packagekit`, `polkit`, `rsyslog`, `ssh`, `systemd-journald`, `systemd-logind`, `systemd-networkd`, `systemd-resolved`, `systemd-udevd`, `udisks2`, `unattended-upgrades`, `upower`, `user@1000`, `vgauth`
+### Servicios activos en el servidor final (19 en total)
+`chrony`, `cron`, `dbus`, `fail2ban`, `getty@tty1`, `networkd-dispatcher`, `nginx`, `open-vm-tools`, `polkit`, `rsyslog`, `ssh`, `systemd-journald`, `systemd-logind`, `systemd-networkd`, `systemd-resolved`, `systemd-udevd`, `udisks2`, `unattended-upgrades`, `user@1000`, `vgauth`
 
-**Pendiente identificado (mejora futura):** `ModemManager`, `fwupd`, `multipathd`, `packagekit` y `upower` no son necesarios en una VM de servidor (están pensados para hardware físico/laptops) y son candidatos a desactivarse en una siguiente iteración de reducción de superficie de ataque.
 
 ## Aprendizajes clave
 
@@ -139,7 +138,6 @@ El código completo está en el archivo `auditoria.sh` de esta carpeta.
 
 ## Próximos pasos
 
-- (Opcional) Desactivar los 5 servicios innecesarios identificados para una superficie de ataque aún más mínima.
 - **Fase 2:** Pentest guiado contra este mismo servidor Ubuntu ya hardenizado, usando Kali Linux (nmap + Metasploit), para evaluar qué tan bien resiste las protecciones aplicadas aquí.
 
 ---
