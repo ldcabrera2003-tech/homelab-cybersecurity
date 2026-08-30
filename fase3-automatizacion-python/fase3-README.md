@@ -10,6 +10,8 @@ Construye sobre la infraestructura de la [Fase 0](../fase0-red-segmentada/README
 
 Las 3 herramientas se ejecutaron contra los objetivos ya existentes del laboratorio:
 
+![Diagrama de red actualizado](./diagrama-homelab-fase3.png)
+
 ```
 Kali Linux (192.168.56.128)
    ├── port_scanner.py    → escaneado contra Ubuntu Server y Metasploitable2
